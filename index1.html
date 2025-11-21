@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trésors Berbères</title>
+
+  <!-- ICONES -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-container">
+
+      <!-- LOGO -->
+      <div class="Trésors de Kabylie">
+        <img src="images/logo.jpg" alt="Trésors de Kabylie" >
+      </div>
+
+      <!-- NAVIGATION -->
+      <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#boutique">Boutique</a>
+        <a href="#contact">Contact</a>
+        <a href="#panier">Panier 🛒</a>
+      </nav>
+
+      <!-- RECHERCHE -->
+      <form class="search-form" action="#" method="get">
+        <input type="text" placeholder="Rechercher un bijou…" name="q" />
+        <button type="submit"><i class="fas fa-search"></i></button>
+      </form>
+
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="accueil" class="hero">
+    <h1> Azrar — Trésors de Kabylie </h1>
+    <p>Portez l'histoire, incarnez la force — Bijoux berbères authentiques</p>
+    <a href="#boutique" class="btn">Voir la boutique</a>
+  </section>
+
+  <!-- BOUTIQUE -->
+  <section id="boutique" class="products">
+    <h2>Notre Collection</h2>
+
+    <div class="grid">
+
+      <!-- PRODUIT 1 -->
+      <div class="card">
+        <div class="gallery">
+          <img src="images/collier.jpg" >
+          <img src="images/collierC1.jpg" >
+          <img src="images/collierC2.jpg" >
+          <img src="images/collierD.jpg" >
+        </div>
+        <h3>Collier Amazigh</h3>
+        <p>Collier traditionnel berbère en argent et perles.</p>
+        <p class="prix">128 €</p>
+        <button>Ajouter au panier</button>
+      </div>
+
+      <!-- PRODUIT 2 -->
+      <div class="card">
+        <div class="gallery">
+          <img src="images/braceletF.jpg" >
+          <img src="images/braceletC.jpg" >
+          <img src="images/braceletD.jpg" >
+        </div>
+        <h3>Bracelet Kabyle</h3>
+        <p>Bracelet artisanal en filigrane.</p>
+        <p class="prix">87 €</p>
+        <button>Ajouter au panier</button>
+      </div>
+
+      <!-- PRODUIT 3 -->
+      <div class="card">
+        <div class="gallery">
+          <img src="images/1.jpg" >
+          <img src="images/2.jpg" >
+          <img src="images/3.jpg" >
+          <img src="images/4.jpg" >
+        </div>
+        <h3>Bague Touareg</h3>
+        <p>Bague traditionnelle en argent massif.</p>
+        <p class="prix">55 €</p>
+        <button>Ajouter au panier</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- DERNIÈRES CRÉATIONS -->
+  <section class="latest">
+    <h2>Dernières créations</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <div class="gallery">
+          <img src="images/bague.jpg" />
+          <img src="images/bague2.jpg" />
+        </div>
+        <h3>Collier Amazigh</h3>
+        <p class="prix">238 €</p>
+      </div>
+
+      <div class="card">
+        <div class="gallery">
+          <img src="images/C4.jpg" />
+          <img src="images/C5.jpg" />
+        </div>
+        <h3>Bracelet Kabyle</h3>
+        <p class="prix">95€</p>
+      </div>
+
+      <div class="card">
+        <div class="gallery">
+          <img src="images/BR5.jpg" />
+          <img src="images/BR6.jpg" />
+        </div>
+        <h3>Bague Touareg</h3>
+        <p class="prix">54 €</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- POPULAIRES -->
+  <section class="popular">
+    <h2>Les plus sélectionnés</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <div class="gallery">
+          <img src="images/Broche.jpg" />
+          <img src="images/broche2.jpg" />
+        </div>
+        <h3>Collier Kabyle</h3>
+        <p class="prix">199 €</p>
+      </div>
+
+      <div class="card">
+        <div class="gallery">
+          <img src="images/C1.jpg" />
+          <img src="images/C2.jpg" />
+        </div>
+        <h3>Bracelet Amazigh</h3>
+        <p class="prix">68 €</p>
+      </div>
+
+      <div class="card">
+        <div class="gallery">
+          <img src="images/BR1.jpg" />
+          <img src="images/BR2.jpg" />
+        </div>
+        <h3>Bague Kabyle</h3>
+        <p class="prix">63 €</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- VALEURS -->
+  <section class="values">
+    <h2>Nos valeurs</h2>
+
+    <div class="values-grid">
+
+      <div class="value-card">
+        <h3>Authenticité</h3>
+        <p>Nos bijoux sont faits à la main par des artisans qualifiés, respectant la tradition berbère.</p>
+      </div>
+
+      <div class="value-card">
+        <h3>Qualité</h3>
+        <p>Nous utilisons uniquement des matériaux nobles et durables pour chaque création.</p>
+      </div>
+
+      <div class="value-card">
+        <h3>Respect</h3>
+        <p>Nous soutenons les communautés locales et préservons le savoir-faire ancestral.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="contact">
+    <p>Contact : contact@tresorsberberes.com</p>
+
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="mailto:contact@tresorsberberes.com"><i class="fas fa-envelope"></i></a>
+    </div>
+
+    <p>© 2025 Trésors Berbères</p>
+  </footer>
+
+</body>
+</html>
